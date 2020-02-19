@@ -10,9 +10,9 @@ class Login extends React.Component {
       if(this.refs.username.value === user.username &&
         this.refs.password.value === user.password) {
         this.props.logInUser();
-      }
     }
   }
+}
   render() {
     return <div>
       <input ref="username" type="text"/>

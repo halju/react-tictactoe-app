@@ -11,7 +11,7 @@ class Login extends React.Component {
         this.refs.password.value === user.password) {
         this.props.logInUser();
      }
-   }
+    }
   }
   render() {
     return <div>
